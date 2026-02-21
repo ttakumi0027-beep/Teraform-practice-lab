@@ -16,18 +16,20 @@ resource "aws_instance" "hello-world" {
 ```
 
 ```bash
-
 # terraformの初期化
 terraform init
 
 # ソースコードの実行
 terraform apply
-
 ```
 
-マネジメントコンソール画面にてEC2が立ち上がっている事を確認
+- マネジメントコンソール画面にてEC2が立ち上がっている事を確認
 
+- EC2インスタンスの削除
 
+```bash
+terraform destroy
+```
 
 
 ## Git管理
