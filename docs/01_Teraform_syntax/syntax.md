@@ -30,9 +30,9 @@ variable "project" {
 
 - [組み込み関数](https://developer.hashicorp.com/terraform/language/functions/substr)
 
-# VPC及びEC2の作成
+<br>
 
-## 1. EC2の作成
+## 1. サンプルEC2の作成
 
 ```main.tf
 provider "aws" {
@@ -65,7 +65,7 @@ terraform apply
 terraform destroy
 ```
 
-##2. Git管理
+## 2. Git管理
 
 [gitignoer.io](https://www.toptal.com/developers/gitignore)にアクセスし、"Tearrfrom"と入力し作成。そのまま、.gitignoreファイルにコピペ
 
